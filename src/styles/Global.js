@@ -10,4 +10,17 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
   }
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    background: gray;
+    border-radius: 3px;
+    margin: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #e5ecf4;
+    border-radius: 3px;
+    border: 0.5px solid gray;
+  }
 `;

@@ -8,6 +8,9 @@ export const Container = styled.div`
   justify-content: center;
   min-width: 300px;
   max-width: 15%;
+  @media only screen and (max-width: 800px) {
+    margin-top: 25px;
+  }
 `;
 
 export const InputButtonContainer = styled.div`
@@ -79,17 +82,4 @@ export const CurrenciesListStyle = styled.div`
   overflow-y: auto;
   text-align: center;
   width: 100%;
-  ::-webkit-scrollbar {
-    width: 15px;
-  }
-  ::-webkit-scrollbar-track {
-    background: gray;
-    border-radius: 3px;
-    margin: 0px;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: #e5ecf4;
-    border-radius: 3px;
-    border: 0.5px solid gray;
-  }
 `;

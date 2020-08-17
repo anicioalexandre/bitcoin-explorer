@@ -7,6 +7,7 @@ export const Container = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   min-width: 70%;
+  overflow-x: auto;
   h2 {
     margin: 0;
   }
@@ -14,6 +15,9 @@ export const Container = styled.div`
     font-size: 13px;
     max-width: 650px;
     text-align: center;
+    @media only screen and (max-width: 800px) {
+      margin-bottom: 10px;
+    }
   }
 `;
 
@@ -24,6 +28,9 @@ export const TableContainer = styled.div`
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin: 15px;
   width: 728px;
+  @media only screen and (max-width: 800px) {
+    width: 500px;
+  }
   table {
     border-bottom: 1px solid #212121;
     border-collapse: collapse;
@@ -36,6 +43,9 @@ export const TableContainer = styled.div`
     text-align: center;
     text-align: left;
     width: 728px;
+    @media only screen and (max-width: 800px) {
+      width: 500px;
+    }
   }
   tbody {
     tr{
@@ -61,6 +71,9 @@ export const TH = styled.th`
   padding-bottom: 12px;
   padding-top: 12px;
   min-width: 180px;
+  @media only screen and (max-width: 800px) {
+    min-width: 125px;
+  }
   &:hover {
     background: #00b49d;
   }
