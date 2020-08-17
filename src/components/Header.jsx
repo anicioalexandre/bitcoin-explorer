@@ -6,7 +6,7 @@ const Header = () => {
   const history = useHistory();
   return (
     <HeaderStyle>
-      <h3 onClick={() => history.push('/')}>Desafio SmarttBot</h3>
+      <h3 onClick={() => history.push('/')}>bitcoinExplorer</h3>
       <h6 onClick={() => history.push('/ranking')}>Ranking</h6>
     </HeaderStyle>
   );

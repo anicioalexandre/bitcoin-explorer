@@ -10,7 +10,7 @@ export const Container = styled.div`
   grid-template-rows: 50px;
   margin-bottom: 2vh;
   min-height: 300px;
-  min-width: 350px;
+  min-width: 300px;
   place-items: center;
   h3 {
     align-items: center;
