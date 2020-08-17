@@ -28,8 +28,12 @@ export const TableContainer = styled.div`
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin: 15px;
   width: 728px;
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 540px) {
     width: 350px;
+    overflow-x: auto;
+  }
+  @media only screen and (min-width: 540px) and (max-width: 640px) {
+    width: 520px;
     overflow-x: auto;
   }
   table {
@@ -44,8 +48,8 @@ export const TableContainer = styled.div`
     text-align: center;
     text-align: left;
     width: 728px;
-    @media only screen and (max-width: 800px) {
-      width: 500px;
+    @media only screen and (min-width: 540px) and (max-width: 640px) {
+      width: 520px;
     }
   }
   tbody {
