@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4db0a883a7218082df59bf38dde51a91",
+    "revision": "ce391eba72c4c495b5bc553de3f98228",
     "url": "/bitcoin-explorer/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bitcoin-explorer/static/js/2.f2a2dce6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "286398c2bb513c55ddb8",
-    "url": "/bitcoin-explorer/static/js/main.4326a6dc.chunk.js"
+    "revision": "36106a16415fbaba2bc6",
+    "url": "/bitcoin-explorer/static/js/main.dad5bcc8.chunk.js"
   },
   {
     "revision": "da79ad480e4f5037c6c2",
