@@ -15,4 +15,8 @@ export const OrdersContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  @media only screen and (max-width: 800px) {
+    justify-content: flex-start
+    max-width: 70%;
+  }
 `;

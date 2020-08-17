@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   min-width: 70%;
-  overflow-x: auto;
+  overflow-x: hidden;
   h2 {
     margin: 0;
   }
@@ -15,9 +15,9 @@ export const Container = styled.div`
     font-size: 13px;
     max-width: 650px;
     text-align: center;
-    @media only screen and (max-width: 800px) {
-      margin-bottom: 10px;
-    }
+  }
+  @media only screen and (max-width: 800px) {
+    margin-bottom: 10px;
   }
 `;
 
@@ -29,7 +29,8 @@ export const TableContainer = styled.div`
   margin: 15px;
   width: 728px;
   @media only screen and (max-width: 800px) {
-    width: 500px;
+    width: 350px;
+    overflow-x: auto;
   }
   table {
     border-bottom: 1px solid #212121;
