@@ -2,6 +2,7 @@
   "name": "bitcoin-explorer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://anicioalexandre.github.io/bitcoin-explorer",
   "dependencies": {
     "@testing-library/user-event": "^7.2.1",
     "@types/jest": "^26.0.7",
@@ -22,7 +23,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jest-environment-jsdom-sixteen",
     "test-coverage": "react-scripts test --env=jest-environment-jsdom-sixteen --coverage --watchAll=false",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

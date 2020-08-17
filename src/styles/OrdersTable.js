@@ -8,6 +8,7 @@ export const Container = styled.div`
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin: 15px;
   min-height: 315px;
+  max-width: 220px;
   width: 220px;
   table {
     border-bottom: 1px solid #212121;

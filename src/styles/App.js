@@ -10,4 +10,7 @@ export const Container = styled.div`
   @media only screen and (min-width: 1600px) {
     margin: 5vh 12vw;
   }
+  @media only screen and (max-width: 800px) {
+    align-items: flex-start;
+  }
 `;
