@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0400a0cb1b8f66f704bf2a3069dcade",
+    "revision": "b986d24f28420dd02b6e5ddefbdcfecc",
     "url": "/bitcoin-explorer/index.html"
   },
   {
