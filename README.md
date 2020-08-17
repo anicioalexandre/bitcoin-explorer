@@ -7,7 +7,7 @@ Esse aplicativo permite ao usuário visualizar diversas informações ( cotaçõ
 Se o usuário desejar ver mais informações sobre determinada moeda é possível buscá-la pelo seu nome ou clicar na respectiva linha na tabela de ranking. O bitcoinExplorer também dispõe de um gráfico personalizável para cada ativo, que permite ao usuário visualizar informações sobre a performance do ativo em diferentes circunstâncias e intervalos de tempo.
 
 ### `Uso`
-O app está hospedado no [GitHub Pages](https://anicioalexandre.github.io/bitcoin-explorer)!
+O app está hospedado no [GitHub Pages](https://bit.ly/bitcoin-explorer)!
 
 ### `Instalação`
 Após o clone do repositório, deve-se acessar a pasta:
