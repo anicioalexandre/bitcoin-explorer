@@ -7,7 +7,7 @@ export const Container = styled.div`
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin: 15px;
-  min-height: 315px;
+  max-height: 400px;
   max-width: 220px;
   width: 220px;
   table {
