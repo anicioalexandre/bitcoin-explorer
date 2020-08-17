@@ -18,6 +18,7 @@ import { Container } from '../styles/CriptoRanking';
 import { Message } from '../styles/CryptoCurrencies';
 import ReactTooltip from 'react-tooltip';
 import Tooltip from '../svg/Tooltip';
+import { ChartContainer } from '../styles/ChartOptions';
 
 const CriptoChart = ({ getCurrencyChart, chartData, loading, error }) => {
   const actualUnixDate = Math.floor(new Date().getTime() / 1000);
@@ -55,44 +56,47 @@ const CriptoChart = ({ getCurrencyChart, chartData, loading, error }) => {
       {chartData.length !== 0 && (
         <>
           <h2>Gráfico de {currency}</h2>
-          <LineChart
-            width={700}
-            height={350}
-            data={convertUnixToDate(chartData, startTime)}
-            margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
-          >
-            <CartesianGrid strokeDasharray="solid" strokeOpacity="0.1" />
-            <XAxis
-              tick={{ fontSize: 13 }}
-              stroke="white"
-              dataKey="covertedData"
-            />
-            <YAxis tick={{ fontSize: 13 }} stroke="white" width={70} />
-            <ChartTooltip offset={100} />
-            <Line
-              strokeWidth={2.5}
-              dot={false}
-              type="monotone"
-              dataKey={visibleData}
-              stroke="#00b49d"
-            />
-            <Line
-              strokeWidth={2.5}
-              dot={false}
-              type="monotone"
-              dataKey={visibleData2}
-              stroke="red"
-            />
-          </LineChart>
+          <ChartContainer>
+            <LineChart
+              width={700}
+              height={350}
+              data={convertUnixToDate(chartData, startTime)}
+              margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+              >
+              <CartesianGrid strokeDasharray="solid" strokeOpacity="0.1" />
+              <XAxis
+                tick={{ fontSize: 13 }}
+                stroke="white"
+                dataKey="covertedData"
+                />
+              <YAxis tick={{ fontSize: 13 }} stroke="white" width={70} />
+              <ChartTooltip offset={100} />
+              <Line
+                strokeWidth={2.5}
+                dot={false}
+                type="monotone"
+                dataKey={visibleData}
+                stroke="#00b49d"
+                />
+              <Line
+                strokeWidth={2.5}
+                dot={false}
+                type="monotone"
+                dataKey={visibleData2}
+                stroke="red"
+                />
+            </LineChart>
 
-          <CriptoChartContext.Provider value={state}>
-            <ChartOptions />
-          </CriptoChartContext.Provider>
-          <span>
-            Intervalos disponíveis{' '}
-            <Tooltip info="Alguns intervalos não estão disponíveis para todos os tempos, devido ao elevado volume de dados." />
-            <ReactTooltip />
-          </span>
+            <CriptoChartContext.Provider value={state}>
+              <ChartOptions />
+            </CriptoChartContext.Provider>
+
+            <span>
+              Intervalos disponíveis{' '}
+              <Tooltip info="Alguns intervalos não estão disponíveis para todos os tempos, devido ao elevado volume de dados." />
+              <ReactTooltip />
+            </span>
+          </ChartContainer>
         </>
       )}
     </Container>

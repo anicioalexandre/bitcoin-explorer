@@ -8,6 +8,18 @@ export const Container = styled.div`
   justify-content: center;
 `;
 
+export const ChartContainer = styled.div`
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  padding-left: 1vw;
+  width: 100%;
+  @media only screen and (max-width: 800px) {
+    display: inline-block;
+  }
+`;
+
 export const ButtonsContainer = styled(Container)`
   flex-direction: row;
   margin-bottom: 1vh;

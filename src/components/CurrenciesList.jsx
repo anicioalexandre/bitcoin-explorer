@@ -34,7 +34,7 @@ const CurrenciesList = ({
     <Container>
       <InputButtonContainer>
         <Input
-          placeholder="Busque por par de moedas"
+          placeholder="Busque por um par de moedas"
           onChange={(e) => setInputValue(e.target.value)}
         />
         <Button

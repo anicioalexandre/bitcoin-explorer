@@ -20,7 +20,7 @@ export const Container = styled.div`
     padding: 8px;
     text-align: center;
     text-align: left;
-    width: 100%;
+    width: 110px;
   }
   th {
     background: #212121;

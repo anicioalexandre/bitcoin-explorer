@@ -3,6 +3,9 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
   body {
     background:#484848;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: #ffffff;
     font-family: 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
