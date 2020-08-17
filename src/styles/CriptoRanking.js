@@ -58,6 +58,10 @@ export const TableContainer = styled.div`
   th {
     background: #212121;
     color: #fff;
+    min-width: 180px;
+    @media only screen and (max-width: 800px) {
+    min-width: 125px;
+    }
   }
   tr {
     text-align: center;
