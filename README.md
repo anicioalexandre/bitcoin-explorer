@@ -9,7 +9,7 @@ Se o usuário desejar ver mais informações sobre determinada moeda é possíve
 ### `Instalação`
 Após o clone do repositório, deve-se acessar a pasta:
 ```bash
-cd desafioTecnicoSmarttBot/desafio-criptomoedas-smarttbot/
+cd bitcoinExplorer/
 ```
 Nesta pasta, deve-se instalar as dependências do projeto (é necessário ter o NodeJS instalado):
 ```bash
@@ -22,7 +22,7 @@ npm start
 ### `Testes (Jest + React Testing Library)`
 Os testes da aplicação foram desenvolvidos em Jest e React Testing Library (RTL). A escolha por utilizar os dois em conjunto foi pautada principalmente pelo fato dos princípios de funcionamento do RTL serem semelhantes à maneira como o usuário encontra elementos na página. Desse modo consegue-se testar a aplicação de uma forma mais efetiva e coerente com as possíveis interações feitas pelo usuário.
 
-Para executar os testes, dentro da pasta correta do repositório (.../desafioTecnicoSmarttBot/desafio-criptomoedas-smarttbot/):
+Para executar os testes, dentro da pasta correta do repositório (.../bitcoinExplorer):
 ```bash
 npm test
 ```
