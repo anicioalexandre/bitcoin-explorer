@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/bitcoin-explorer/static/js/main.dd62e78a.chunk.js",
-    "main.js.map": "/bitcoin-explorer/static/js/main.dd62e78a.chunk.js.map",
+    "main.js": "/bitcoin-explorer/static/js/main.ac8189e0.chunk.js",
+    "main.js.map": "/bitcoin-explorer/static/js/main.ac8189e0.chunk.js.map",
     "runtime-main.js": "/bitcoin-explorer/static/js/runtime-main.2ac731d7.js",
     "runtime-main.js.map": "/bitcoin-explorer/static/js/runtime-main.2ac731d7.js.map",
     "static/js/2.f2a2dce6.chunk.js": "/bitcoin-explorer/static/js/2.f2a2dce6.chunk.js",
     "static/js/2.f2a2dce6.chunk.js.map": "/bitcoin-explorer/static/js/2.f2a2dce6.chunk.js.map",
     "index.html": "/bitcoin-explorer/index.html",
-    "precache-manifest.e17661875adaac5432474dbacbd8f0d8.js": "/bitcoin-explorer/precache-manifest.e17661875adaac5432474dbacbd8f0d8.js",
+    "precache-manifest.4c16f549d05d8ea9070d30b3096719dc.js": "/bitcoin-explorer/precache-manifest.4c16f549d05d8ea9070d30b3096719dc.js",
     "service-worker.js": "/bitcoin-explorer/service-worker.js",
     "static/js/2.f2a2dce6.chunk.js.LICENSE.txt": "/bitcoin-explorer/static/js/2.f2a2dce6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2ac731d7.js",
     "static/js/2.f2a2dce6.chunk.js",
-    "static/js/main.dd62e78a.chunk.js"
+    "static/js/main.ac8189e0.chunk.js"
   ]
 }
